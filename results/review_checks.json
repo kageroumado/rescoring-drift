@@ -1,0 +1,46 @@
+{
+ "P1": {
+  "t15": {
+   "session_mean": {
+    "easy": 1.5451859928616878,
+    "hard": 17.571942496079714,
+    "ratio": 11.372056553228546
+   },
+   "word_weighted": {
+    "easy": 1.7800091282519397,
+    "hard": 17.745586238116793,
+    "ratio": 9.969379345567665
+   }
+  },
+  "t12": {
+   "session_mean": {
+    "easy": 14.87968152329865,
+    "hard": 39.17981187170354,
+    "ratio": 2.633108229524649
+   },
+   "word_weighted": {
+    "easy": 14.871438498957609,
+    "hard": 37.704918032786885,
+    "ratio": 2.535391450896277
+   }
+  }
+ },
+ "early_model_overlap": {
+  "early_training_sentences": 4175,
+  "fit_in_released_training_text": 11,
+  "fit_also_in_early_training": 1,
+  "late_in_released_training_text": 117,
+  "late_also_in_early_training": 0
+ },
+ "qwen_zero_score": {
+  "far_lists_with_zero_top_score": 4,
+  "selected_at_tuned_alpha": 1
+ },
+ "session_ambiguous_in_random_split": {
+  "ambiguous": 17,
+  "in_dev": 5,
+  "in_test": 12,
+  "dev": 419,
+  "test": 978
+ }
+}

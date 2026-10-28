@@ -1,0 +1,15 @@
+numpy
+scipy
+pandas
+h5py
+jiwer
+omegaconf
+matplotlib
+torch
+scikit-learn
+opentimestamps-client
+transformers
+accelerate
+safetensors
+torchaudio
+editdistance

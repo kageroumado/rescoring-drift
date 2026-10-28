@@ -1,0 +1,372 @@
+{
+ "temporal": {
+  "alpha": {
+   "opt": 0.35,
+   "qwen": 0.45,
+   "jev": 0.45
+  },
+  "temperature": {
+   "opt": 0.25,
+   "qwen": 0.25,
+   "jev": 1
+  },
+  "arms": {
+   "opt": {
+    "train_changed": 90,
+    "train_helped": 41,
+    "test_changed": 67,
+    "threshold_logistic": 0.34,
+    "threshold_softmax": 0.12,
+    "standardized_coefficients": {
+     "first_pass_margin": 0.21135017199765835,
+     "rescorer_margin": 0.5467270864722129,
+     "pick_rank": -0.5019162656464545,
+     "edit_distance": -0.1779664136464509,
+     "length_words": 0.48551921866766884,
+     "list_length": -0.15782250821487523,
+     "rescorer_agreement": 0.7486045144983131,
+     "softmax_confidence": -0.18949734014733627
+    },
+    "wer": {
+     "none": 8.279220779220779,
+     "always": 7.575757575757576,
+     "softmax_threshold": 7.656926406926407,
+     "logistic_gate": 7.629870129870129,
+     "oracle": 7.088744588744589
+    },
+    "applied": {
+     "none": {
+      "changes": 0,
+      "helped": 0,
+      "harmed": 0
+     },
+     "always": {
+      "changes": 67,
+      "helped": 38,
+      "harmed": 16
+     },
+     "softmax_threshold": {
+      "changes": 62,
+      "helped": 35,
+      "harmed": 16
+     },
+     "logistic_gate": {
+      "changes": 45,
+      "helped": 28,
+      "harmed": 8
+     }
+    },
+    "vs_always_ci": {
+     "softmax_threshold": [
+      0.0,
+      0.17880337449981756
+     ],
+     "logistic_gate": [
+      -0.19016830031370366,
+      0.30039235381849994
+     ]
+    },
+    "share_of_headroom_recovered": -0.11111111111110908
+   },
+   "qwen": {
+    "train_changed": 134,
+    "train_helped": 57,
+    "test_changed": 106,
+    "threshold_logistic": 0.32,
+    "threshold_softmax": 0.0,
+    "standardized_coefficients": {
+     "first_pass_margin": -0.3731331541396179,
+     "rescorer_margin": 0.4085184329521985,
+     "pick_rank": -0.16520559968348142,
+     "edit_distance": 0.29255569431688516,
+     "length_words": 1.0249357580815306,
+     "list_length": 0.16652008280495995,
+     "rescorer_agreement": 0.6822363776656988,
+     "softmax_confidence": 0.5768279893954761
+    },
+    "wer": {
+     "none": 8.279220779220779,
+     "always": 7.5487012987013,
+     "softmax_threshold": 7.5487012987013,
+     "logistic_gate": 7.386363636363637,
+     "oracle": 6.6558441558441555
+    },
+    "applied": {
+     "none": {
+      "changes": 0,
+      "helped": 0,
+      "harmed": 0
+     },
+     "always": {
+      "changes": 106,
+      "helped": 50,
+      "harmed": 30
+     },
+     "softmax_threshold": {
+      "changes": 106,
+      "helped": 50,
+      "harmed": 30
+     },
+     "logistic_gate": {
+      "changes": 65,
+      "helped": 39,
+      "harmed": 13
+     }
+    },
+    "vs_always_ci": {
+     "softmax_threshold": [
+      0.0,
+      0.0
+     ],
+     "logistic_gate": [
+      -0.43668462895721066,
+      0.12202119330085753
+     ]
+    },
+    "share_of_headroom_recovered": 0.18181818181818218
+   },
+   "jev": {
+    "train_changed": 69,
+    "train_helped": 41,
+    "test_changed": 57,
+    "threshold_logistic": 0.0,
+    "threshold_softmax": 0.0,
+    "standardized_coefficients": {
+     "first_pass_margin": -0.06459497349499083,
+     "rescorer_margin": 0.3325394848748028,
+     "pick_rank": -0.2906626408319777,
+     "edit_distance": 0.4978368278464295,
+     "length_words": 0.417029231256139,
+     "list_length": -0.22653102414080364,
+     "rescorer_agreement": -0.0011655764625359646,
+     "softmax_confidence": 0.3932931216347905
+    },
+    "wer": {
+     "none": 8.279220779220779,
+     "always": 7.440476190476191,
+     "softmax_threshold": 7.440476190476191,
+     "logistic_gate": 7.440476190476191,
+     "oracle": 7.115800865800866
+    },
+    "applied": {
+     "none": {
+      "changes": 0,
+      "helped": 0,
+      "harmed": 0
+     },
+     "always": {
+      "changes": 57,
+      "helped": 37,
+      "harmed": 10
+     },
+     "softmax_threshold": {
+      "changes": 57,
+      "helped": 37,
+      "harmed": 10
+     },
+     "logistic_gate": {
+      "changes": 57,
+      "helped": 37,
+      "harmed": 10
+     }
+    },
+    "vs_always_ci": {
+     "softmax_threshold": [
+      0.0,
+      0.0
+     ],
+     "logistic_gate": [
+      0.0,
+      0.0
+     ]
+    },
+    "share_of_headroom_recovered": 0.0
+   }
+  }
+ },
+ "random": {
+  "alpha": {
+   "opt": 0.5,
+   "qwen": 0.45,
+   "jev": 0.9
+  },
+  "temperature": {
+   "opt": 0.25,
+   "qwen": 0.25,
+   "jev": 2
+  },
+  "arms": {
+   "opt": {
+    "train_changed": 83,
+    "train_helped": 38,
+    "test_changed": 190,
+    "threshold_logistic": 0.36,
+    "threshold_softmax": 0.14,
+    "standardized_coefficients": {
+     "first_pass_margin": -0.28413993503304596,
+     "rescorer_margin": 0.2749580457530629,
+     "pick_rank": 0.018089921483246917,
+     "edit_distance": 0.06759253418156194,
+     "length_words": 0.578656509896621,
+     "list_length": 0.32535715750406885,
+     "rescorer_agreement": 0.9681400735972583,
+     "softmax_confidence": 0.38218994906443515
+    },
+    "wer": {
+     "none": 8.474283741801864,
+     "always": 8.336209872281671,
+     "softmax_threshold": 8.405246807041769,
+     "logistic_gate": 7.680358992060753,
+     "oracle": 6.955471177079738
+    },
+    "applied": {
+     "none": {
+      "changes": 0,
+      "helped": 0,
+      "harmed": 0
+     },
+     "always": {
+      "changes": 190,
+      "helped": 75,
+      "harmed": 67
+     },
+     "softmax_threshold": {
+      "changes": 167,
+      "helped": 66,
+      "harmed": 62
+     },
+     "logistic_gate": {
+      "changes": 106,
+      "helped": 61,
+      "harmed": 23
+     }
+    },
+    "vs_always_ci": {
+     "softmax_threshold": [
+      -0.01758404073789312,
+      0.16598062060675933
+     ],
+     "logistic_gate": [
+      -1.1671208014781926,
+      -0.200623310743194
+     ]
+    },
+    "share_of_headroom_recovered": 0.47500000000000003
+   },
+   "qwen": {
+    "train_changed": 81,
+    "train_helped": 39,
+    "test_changed": 159,
+    "threshold_logistic": 0.38,
+    "threshold_softmax": 0.14,
+    "standardized_coefficients": {
+     "first_pass_margin": -1.0439228277517016,
+     "rescorer_margin": 0.1701120323447897,
+     "pick_rank": 0.28084998573380093,
+     "edit_distance": 0.44588008225544634,
+     "length_words": 0.6405696985254823,
+     "list_length": 0.24381760046017947,
+     "rescorer_agreement": 0.7751507403888357,
+     "softmax_confidence": 0.6804956856100545
+    },
+    "wer": {
+     "none": 8.474283741801864,
+     "always": 8.060062133241285,
+     "softmax_threshold": 8.146358301691405,
+     "logistic_gate": 7.8529513289609945,
+     "oracle": 7.041767345529859
+    },
+    "applied": {
+     "none": {
+      "changes": 0,
+      "helped": 0,
+      "harmed": 0
+     },
+     "always": {
+      "changes": 159,
+      "helped": 68,
+      "harmed": 51
+     },
+     "softmax_threshold": {
+      "changes": 151,
+      "helped": 63,
+      "harmed": 50
+     },
+     "logistic_gate": {
+      "changes": 92,
+      "helped": 52,
+      "harmed": 24
+     }
+    },
+    "vs_always_ci": {
+     "softmax_threshold": [
+      0.0,
+      0.21712384406346888
+     ],
+     "logistic_gate": [
+      -0.48248184916721004,
+      0.0685756657338312
+     ]
+    },
+    "share_of_headroom_recovered": 0.20338983050847506
+   },
+   "jev": {
+    "train_changed": 87,
+    "train_helped": 43,
+    "test_changed": 208,
+    "threshold_logistic": 0.4,
+    "threshold_softmax": 0.0,
+    "standardized_coefficients": {
+     "first_pass_margin": -0.23481168732315655,
+     "rescorer_margin": -0.23102149701637553,
+     "pick_rank": 0.15770421776191537,
+     "edit_distance": 0.6032095962839472,
+     "length_words": 0.24674929008262297,
+     "list_length": 0.29568684469314194,
+     "rescorer_agreement": 0.7345404281047997,
+     "softmax_confidence": 0.8254107403702112
+    },
+    "wer": {
+     "none": 8.474283741801864,
+     "always": 7.83569209527097,
+     "softmax_threshold": 7.83569209527097,
+     "logistic_gate": 7.473248187780462,
+     "oracle": 6.523990334829135
+    },
+    "applied": {
+     "none": {
+      "changes": 0,
+      "helped": 0,
+      "harmed": 0
+     },
+     "always": {
+      "changes": 208,
+      "helped": 93,
+      "harmed": 69
+     },
+     "softmax_threshold": {
+      "changes": 208,
+      "helped": 93,
+      "harmed": 69
+     },
+     "logistic_gate": {
+      "changes": 106,
+      "helped": 68,
+      "harmed": 23
+     }
+    },
+    "vs_always_ci": {
+     "softmax_threshold": [
+      0.0,
+      0.0
+     ],
+     "logistic_gate": [
+      -0.6750867279459745,
+      -0.03573742555373148
+     ]
+    },
+    "share_of_headroom_recovered": 0.2763157894736845
+   }
+  }
+ }
+}

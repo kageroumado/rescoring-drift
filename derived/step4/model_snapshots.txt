@@ -1,0 +1,6 @@
+/root/step4work/hf/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots:
+a09a35458c702b33eeacc393d103063234e8bc28
+
+/root/step4work/hf/hub/models--facebook--opt-6.7b/snapshots:
+3f007b404ac3e31725d381b38339101d17ca097c
+a45aa65bbeb77c1558bc99bedc6779195462dab0

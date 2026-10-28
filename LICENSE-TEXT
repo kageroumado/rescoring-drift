@@ -1,0 +1,12 @@
+Copyright (c) 2026 Mado Kagerou
+
+The paper (paper/), its figures, the result files (results/, derived/), the lab notes and the other prose
+in this repository (README.md, LAB-NOTES.md, PREDICTIONS.md, SUMMARY.md, ARTICLE-NOTES.md) are licensed
+under the Creative Commons Attribution 4.0 International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+The code (src/, cloud/, reproduce.py, paper/make_figures.py, paper/build_pdf.sh) is licensed under the MIT
+License in LICENSE.
+
+The recordings these results derive from are CC0 releases on Dryad (doi:10.5061/dryad.dncjsxm85,
+doi:10.5061/dryad.x69p8czpq) and are not redistributed here.

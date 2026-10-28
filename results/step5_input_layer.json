@@ -1,0 +1,191 @@
+{
+ "checkpoint": "/Volumes/Ugreen/Projects/rescoring-drift/dryad/t15_pretrained_rnn_baseline/checkpoint",
+ "frozen_input_layer": "t15.2023.11.26",
+ "sessions": [
+  {
+   "session": "t15.2023.12.03",
+   "days_after_training": 7,
+   "phonemes": 952,
+   "edits_frozen_layer": 84,
+   "per_frozen_layer": 0.08823529411764706,
+   "per_own_layer": 0.04831932773109244,
+   "per_early_model": 0.148109243697479
+  },
+  {
+   "session": "t15.2023.12.08",
+   "days_after_training": 12,
+   "phonemes": 1502,
+   "edits_frozen_layer": 136,
+   "per_frozen_layer": 0.09054593874833555,
+   "per_own_layer": 0.035286284953395475,
+   "per_early_model": 0.14647137150466044
+  },
+  {
+   "session": "t15.2023.12.10",
+   "days_after_training": 14,
+   "phonemes": 761,
+   "edits_frozen_layer": 59,
+   "per_frozen_layer": 0.07752956636005257,
+   "per_own_layer": 0.02890932982917214,
+   "per_early_model": 0.13009198423127463
+  },
+  {
+   "session": "t15.2023.12.17",
+   "days_after_training": 21,
+   "phonemes": 962,
+   "edits_frozen_layer": 220,
+   "per_frozen_layer": 0.2286902286902287,
+   "per_own_layer": 0.08627858627858628,
+   "per_early_model": 0.36382536382536385
+  },
+  {
+   "session": "t15.2023.12.29",
+   "days_after_training": 33,
+   "phonemes": 1457,
+   "edits_frozen_layer": 377,
+   "per_frozen_layer": 0.2587508579272478,
+   "per_own_layer": 0.06177076183939602,
+   "per_early_model": 0.3630748112560055
+  },
+  {
+   "session": "t15.2024.02.25",
+   "days_after_training": 91,
+   "phonemes": 712,
+   "edits_frozen_layer": 222,
+   "per_frozen_layer": 0.31179775280898875,
+   "per_own_layer": 0.06601123595505617,
+   "per_early_model": 0.41713483146067415
+  },
+  {
+   "session": "t15.2024.03.08",
+   "days_after_training": 103,
+   "phonemes": 703,
+   "edits_frozen_layer": 325,
+   "per_frozen_layer": 0.4623044096728307,
+   "per_own_layer": 0.18207681365576103,
+   "per_early_model": 0.6386913229018493
+  },
+  {
+   "session": "t15.2024.03.15",
+   "days_after_training": 110,
+   "phonemes": 1599,
+   "edits_frozen_layer": 772,
+   "per_frozen_layer": 0.482801751094434,
+   "per_own_layer": 0.15322076297686055,
+   "per_early_model": 0.590368980612883
+  },
+  {
+   "session": "t15.2024.03.17",
+   "days_after_training": 112,
+   "phonemes": 1434,
+   "edits_frozen_layer": 614,
+   "per_frozen_layer": 0.4281729428172943,
+   "per_own_layer": 0.07252440725244072,
+   "per_early_model": 0.5878661087866108
+  },
+  {
+   "session": "t15.2024.05.10",
+   "days_after_training": 166,
+   "phonemes": 673,
+   "edits_frozen_layer": 343,
+   "per_frozen_layer": 0.5096582466567607,
+   "per_own_layer": 0.09955423476968796,
+   "per_early_model": 0.6329866270430906
+  },
+  {
+   "session": "t15.2024.06.14",
+   "days_after_training": 201,
+   "phonemes": 634,
+   "edits_frozen_layer": 347,
+   "per_frozen_layer": 0.5473186119873817,
+   "per_own_layer": 0.10725552050473186,
+   "per_early_model": 0.668769716088328
+  },
+  {
+   "session": "t15.2024.07.19",
+   "days_after_training": 236,
+   "phonemes": 1517,
+   "edits_frozen_layer": 989,
+   "per_frozen_layer": 0.6519446275543836,
+   "per_own_layer": 0.14700065919578115,
+   "per_early_model": 0.7317073170731707
+  },
+  {
+   "session": "t15.2024.07.21",
+   "days_after_training": 238,
+   "phonemes": 1450,
+   "edits_frozen_layer": 773,
+   "per_frozen_layer": 0.5331034482758621,
+   "per_own_layer": 0.04758620689655172,
+   "per_early_model": 0.6662068965517242
+  },
+  {
+   "session": "t15.2024.07.28",
+   "days_after_training": 245,
+   "phonemes": 1360,
+   "edits_frozen_layer": 747,
+   "per_frozen_layer": 0.549264705882353,
+   "per_own_layer": 0.09044117647058823,
+   "per_early_model": 0.7095588235294118
+  },
+  {
+   "session": "t15.2025.01.10",
+   "days_after_training": 411,
+   "phonemes": 726,
+   "edits_frozen_layer": 532,
+   "per_frozen_layer": 0.7327823691460055,
+   "per_own_layer": 0.24242424242424243,
+   "per_early_model": 0.778236914600551
+  },
+  {
+   "session": "t15.2025.01.12",
+   "days_after_training": 413,
+   "phonemes": 1299,
+   "edits_frozen_layer": 860,
+   "per_frozen_layer": 0.6620477290223249,
+   "per_own_layer": 0.09237875288683603,
+   "per_early_model": 0.8106235565819861
+  },
+  {
+   "session": "t15.2025.03.14",
+   "days_after_training": 474,
+   "phonemes": 676,
+   "edits_frozen_layer": 488,
+   "per_frozen_layer": 0.7218934911242604,
+   "per_own_layer": 0.3076923076923077,
+   "per_early_model": 0.7795857988165681
+  },
+  {
+   "session": "t15.2025.03.16",
+   "days_after_training": 476,
+   "phonemes": 764,
+   "edits_frozen_layer": 503,
+   "per_frozen_layer": 0.6583769633507853,
+   "per_own_layer": 0.1400523560209424,
+   "per_early_model": 0.7513089005235603
+  },
+  {
+   "session": "t15.2025.03.30",
+   "days_after_training": 490,
+   "phonemes": 870,
+   "edits_frozen_layer": 608,
+   "per_frozen_layer": 0.6988505747126437,
+   "per_own_layer": 0.2160919540229885,
+   "per_early_model": 0.7781609195402299
+  },
+  {
+   "session": "t15.2025.04.13",
+   "days_after_training": 504,
+   "phonemes": 701,
+   "edits_frozen_layer": 458,
+   "per_frozen_layer": 0.6533523537803139,
+   "per_own_layer": 0.21398002853067047,
+   "per_early_model": 0.7375178316690443
+  }
+ ],
+ "late_mean_per": {
+  "released_own_layer": 0.11165188897455668,
+  "released_frozen_layer": 0.45571511179645335,
+  "early_model": 0.562644564379337
+ }
+}

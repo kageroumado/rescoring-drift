@@ -1,0 +1,38 @@
+{
+ "test_sentences": 966,
+ "test_words": 6449,
+ "first_pass_wer": 8.001240502403473,
+ "opt": {
+  "alpha": 0.3,
+  "wer": 7.706621181578539,
+  "oracle_gate_wer": 7.2569390603194295,
+  "sentences_changed": 89,
+  "changes_helped": 41,
+  "changes_harmed": 26,
+  "changes_neutral": 22,
+  "words_fixed": 48,
+  "words_broken": 29
+ },
+ "qwen": {
+  "alpha": 0.45,
+  "wer": 7.660102341448287,
+  "oracle_gate_wer": 6.683206698712978,
+  "sentences_changed": 168,
+  "changes_helped": 70,
+  "changes_harmed": 55,
+  "changes_neutral": 43,
+  "words_fixed": 85,
+  "words_broken": 63
+ },
+ "jev": {
+  "alpha": 0.9,
+  "wer": 7.38098930066677,
+  "oracle_gate_wer": 6.124980617149946,
+  "sentences_changed": 222,
+  "changes_helped": 100,
+  "changes_harmed": 73,
+  "changes_neutral": 49,
+  "words_fixed": 121,
+  "words_broken": 81
+ }
+}

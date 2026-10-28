@@ -1,0 +1,376 @@
+{
+ "checkpoint": "/Volumes/Ugreen/Projects/rescoring-drift/dryad/t15_pretrained_rnn_baseline/checkpoint",
+ "trained_sessions": 45,
+ "last_trained": "t15.2025.04.13",
+ "sessions": [
+  {
+   "session": "t15.2023.08.13",
+   "trained_on": true,
+   "input_layer": "t15.2023.08.13",
+   "days_after_training": 0,
+   "phonemes": 962,
+   "edits": 77,
+   "per": 0.08004158004158005
+  },
+  {
+   "session": "t15.2023.08.18",
+   "trained_on": true,
+   "input_layer": "t15.2023.08.18",
+   "days_after_training": 0,
+   "phonemes": 1193,
+   "edits": 75,
+   "per": 0.06286672254819782
+  },
+  {
+   "session": "t15.2023.08.20",
+   "trained_on": true,
+   "input_layer": "t15.2023.08.20",
+   "days_after_training": 0,
+   "phonemes": 1259,
+   "edits": 60,
+   "per": 0.04765687053216839
+  },
+  {
+   "session": "t15.2023.08.25",
+   "trained_on": true,
+   "input_layer": "t15.2023.08.25",
+   "days_after_training": 0,
+   "phonemes": 664,
+   "edits": 55,
+   "per": 0.08283132530120482
+  },
+  {
+   "session": "t15.2023.08.27",
+   "trained_on": true,
+   "input_layer": "t15.2023.08.27",
+   "days_after_training": 0,
+   "phonemes": 622,
+   "edits": 98,
+   "per": 0.15755627009646303
+  },
+  {
+   "session": "t15.2023.09.01",
+   "trained_on": true,
+   "input_layer": "t15.2023.09.01",
+   "days_after_training": 0,
+   "phonemes": 1232,
+   "edits": 45,
+   "per": 0.036525974025974024
+  },
+  {
+   "session": "t15.2023.09.03",
+   "trained_on": true,
+   "input_layer": "t15.2023.09.03",
+   "days_after_training": 0,
+   "phonemes": 842,
+   "edits": 98,
+   "per": 0.1163895486935867
+  },
+  {
+   "session": "t15.2023.09.24",
+   "trained_on": true,
+   "input_layer": "t15.2023.09.24",
+   "days_after_training": 0,
+   "phonemes": 824,
+   "edits": 63,
+   "per": 0.07645631067961164
+  },
+  {
+   "session": "t15.2023.09.29",
+   "trained_on": true,
+   "input_layer": "t15.2023.09.29",
+   "days_after_training": 0,
+   "phonemes": 1567,
+   "edits": 155,
+   "per": 0.09891512444160817
+  },
+  {
+   "session": "t15.2023.10.01",
+   "trained_on": true,
+   "input_layer": "t15.2023.10.01",
+   "days_after_training": 0,
+   "phonemes": 1514,
+   "edits": 193,
+   "per": 0.12747688243064728
+  },
+  {
+   "session": "t15.2023.10.06",
+   "trained_on": true,
+   "input_layer": "t15.2023.10.06",
+   "days_after_training": 0,
+   "phonemes": 929,
+   "edits": 66,
+   "per": 0.07104413347685684
+  },
+  {
+   "session": "t15.2023.10.08",
+   "trained_on": true,
+   "input_layer": "t15.2023.10.08",
+   "days_after_training": 0,
+   "phonemes": 739,
+   "edits": 127,
+   "per": 0.17185385656292287
+  },
+  {
+   "session": "t15.2023.10.13",
+   "trained_on": true,
+   "input_layer": "t15.2023.10.13",
+   "days_after_training": 0,
+   "phonemes": 1289,
+   "edits": 185,
+   "per": 0.143522110162917
+  },
+  {
+   "session": "t15.2023.10.15",
+   "trained_on": true,
+   "input_layer": "t15.2023.10.15",
+   "days_after_training": 0,
+   "phonemes": 1517,
+   "edits": 172,
+   "per": 0.1133816743572841
+  },
+  {
+   "session": "t15.2023.10.20",
+   "trained_on": true,
+   "input_layer": "t15.2023.10.20",
+   "days_after_training": 0,
+   "phonemes": 298,
+   "edits": 48,
+   "per": 0.1610738255033557
+  },
+  {
+   "session": "t15.2023.10.22",
+   "trained_on": true,
+   "input_layer": "t15.2023.10.22",
+   "days_after_training": 0,
+   "phonemes": 898,
+   "edits": 84,
+   "per": 0.0935412026726058
+  },
+  {
+   "session": "t15.2023.11.03",
+   "trained_on": true,
+   "input_layer": "t15.2023.11.03",
+   "days_after_training": 0,
+   "phonemes": 1474,
+   "edits": 212,
+   "per": 0.14382632293080055
+  },
+  {
+   "session": "t15.2023.11.04",
+   "trained_on": true,
+   "input_layer": "t15.2023.11.04",
+   "days_after_training": 0,
+   "phonemes": 293,
+   "edits": 6,
+   "per": 0.020477815699658702
+  },
+  {
+   "session": "t15.2023.11.17",
+   "trained_on": true,
+   "input_layer": "t15.2023.11.17",
+   "days_after_training": 0,
+   "phonemes": 643,
+   "edits": 9,
+   "per": 0.013996889580093312
+  },
+  {
+   "session": "t15.2023.11.19",
+   "trained_on": true,
+   "input_layer": "t15.2023.11.19",
+   "days_after_training": 0,
+   "phonemes": 501,
+   "edits": 7,
+   "per": 0.013972055888223553
+  },
+  {
+   "session": "t15.2023.11.26",
+   "trained_on": true,
+   "input_layer": "t15.2023.11.26",
+   "days_after_training": 0,
+   "phonemes": 1380,
+   "edits": 67,
+   "per": 0.04855072463768116
+  },
+  {
+   "session": "t15.2023.12.03",
+   "trained_on": true,
+   "input_layer": "t15.2023.12.03",
+   "days_after_training": 0,
+   "phonemes": 952,
+   "edits": 46,
+   "per": 0.04831932773109244
+  },
+  {
+   "session": "t15.2023.12.08",
+   "trained_on": true,
+   "input_layer": "t15.2023.12.08",
+   "days_after_training": 0,
+   "phonemes": 1502,
+   "edits": 53,
+   "per": 0.035286284953395475
+  },
+  {
+   "session": "t15.2023.12.10",
+   "trained_on": true,
+   "input_layer": "t15.2023.12.10",
+   "days_after_training": 0,
+   "phonemes": 761,
+   "edits": 22,
+   "per": 0.02890932982917214
+  },
+  {
+   "session": "t15.2023.12.17",
+   "trained_on": true,
+   "input_layer": "t15.2023.12.17",
+   "days_after_training": 0,
+   "phonemes": 962,
+   "edits": 83,
+   "per": 0.08627858627858628
+  },
+  {
+   "session": "t15.2023.12.29",
+   "trained_on": true,
+   "input_layer": "t15.2023.12.29",
+   "days_after_training": 0,
+   "phonemes": 1457,
+   "edits": 90,
+   "per": 0.06177076183939602
+  },
+  {
+   "session": "t15.2024.02.25",
+   "trained_on": true,
+   "input_layer": "t15.2024.02.25",
+   "days_after_training": 0,
+   "phonemes": 712,
+   "edits": 47,
+   "per": 0.06601123595505617
+  },
+  {
+   "session": "t15.2024.03.08",
+   "trained_on": true,
+   "input_layer": "t15.2024.03.08",
+   "days_after_training": 0,
+   "phonemes": 703,
+   "edits": 128,
+   "per": 0.18207681365576103
+  },
+  {
+   "session": "t15.2024.03.15",
+   "trained_on": true,
+   "input_layer": "t15.2024.03.15",
+   "days_after_training": 0,
+   "phonemes": 1599,
+   "edits": 245,
+   "per": 0.15322076297686055
+  },
+  {
+   "session": "t15.2024.03.17",
+   "trained_on": true,
+   "input_layer": "t15.2024.03.17",
+   "days_after_training": 0,
+   "phonemes": 1434,
+   "edits": 104,
+   "per": 0.07252440725244072
+  },
+  {
+   "session": "t15.2024.05.10",
+   "trained_on": true,
+   "input_layer": "t15.2024.05.10",
+   "days_after_training": 0,
+   "phonemes": 673,
+   "edits": 67,
+   "per": 0.09955423476968796
+  },
+  {
+   "session": "t15.2024.06.14",
+   "trained_on": true,
+   "input_layer": "t15.2024.06.14",
+   "days_after_training": 0,
+   "phonemes": 634,
+   "edits": 68,
+   "per": 0.10725552050473186
+  },
+  {
+   "session": "t15.2024.07.19",
+   "trained_on": true,
+   "input_layer": "t15.2024.07.19",
+   "days_after_training": 0,
+   "phonemes": 1517,
+   "edits": 223,
+   "per": 0.14700065919578115
+  },
+  {
+   "session": "t15.2024.07.21",
+   "trained_on": true,
+   "input_layer": "t15.2024.07.21",
+   "days_after_training": 0,
+   "phonemes": 1450,
+   "edits": 69,
+   "per": 0.04758620689655172
+  },
+  {
+   "session": "t15.2024.07.28",
+   "trained_on": true,
+   "input_layer": "t15.2024.07.28",
+   "days_after_training": 0,
+   "phonemes": 1360,
+   "edits": 123,
+   "per": 0.09044117647058823
+  },
+  {
+   "session": "t15.2025.01.10",
+   "trained_on": true,
+   "input_layer": "t15.2025.01.10",
+   "days_after_training": 0,
+   "phonemes": 726,
+   "edits": 176,
+   "per": 0.24242424242424243
+  },
+  {
+   "session": "t15.2025.01.12",
+   "trained_on": true,
+   "input_layer": "t15.2025.01.12",
+   "days_after_training": 0,
+   "phonemes": 1299,
+   "edits": 120,
+   "per": 0.09237875288683603
+  },
+  {
+   "session": "t15.2025.03.14",
+   "trained_on": true,
+   "input_layer": "t15.2025.03.14",
+   "days_after_training": 0,
+   "phonemes": 676,
+   "edits": 208,
+   "per": 0.3076923076923077
+  },
+  {
+   "session": "t15.2025.03.16",
+   "trained_on": true,
+   "input_layer": "t15.2025.03.16",
+   "days_after_training": 0,
+   "phonemes": 764,
+   "edits": 107,
+   "per": 0.1400523560209424
+  },
+  {
+   "session": "t15.2025.03.30",
+   "trained_on": true,
+   "input_layer": "t15.2025.03.30",
+   "days_after_training": 0,
+   "phonemes": 870,
+   "edits": 188,
+   "per": 0.2160919540229885
+  },
+  {
+   "session": "t15.2025.04.13",
+   "trained_on": true,
+   "input_layer": "t15.2025.04.13",
+   "days_after_training": 0,
+   "phonemes": 701,
+   "edits": 150,
+   "per": 0.21398002853067047
+  }
+ ]
+}

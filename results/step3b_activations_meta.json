@@ -1,0 +1,21 @@
+{
+ "model": "facebook/opt-6.7b",
+ "revision": "a45aa65bbeb77c1558bc99bedc6779195462dab0",
+ "dtype": "float16",
+ "device": "mps",
+ "hypotheses": 601,
+ "layers": [
+  4,
+  8,
+  12,
+  16,
+  20,
+  24,
+  28,
+  32
+ ],
+ "score_check_median_spearman": 0.9998319826582085,
+ "score_check_min_spearman": 0.9941176470588234,
+ "seconds": 66.86417078971863,
+ "output": "/Volumes/Ugreen/Projects/rescoring-drift/activations/opt_step3b.npz"
+}

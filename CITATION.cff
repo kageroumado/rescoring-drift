@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the preprint below."
+title: "The language model on a drifting speech decoder"
+authors:
+  - family-names: Kagerou
+    given-names: Mado
+    orcid: "https://orcid.org/0009-0005-5962-9254"
+    affiliation: "Independent Researcher"
+license: MIT
+repository-code: "https://github.com/kageroumado/rescoring-drift"
+keywords:
+  - speech neuroprosthesis
+  - brain-computer interface
+  - language model rescoring
+  - neural decoder drift
+  - preregistration
+preferred-citation:
+  type: article
+  title: "The language model on a drifting speech decoder"
+  authors:
+    - family-names: Kagerou
+      given-names: Mado
+      orcid: "https://orcid.org/0009-0005-5962-9254"
+  year: 2026
+  doi: "10.5281/zenodo.23745489"
+  url: "https://doi.org/10.5281/zenodo.23745489"
+  notes: "Preprint. Data: doi:10.5281/zenodo.23745520."
