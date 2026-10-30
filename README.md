@@ -8,6 +8,7 @@ scores ([how-much-language-model](https://github.com/gabrycina/how-much-language
 [arXiv:2609.33538](https://arxiv.org/abs/2609.33538)).
 
 Preprint: `paper/rescoring-drift.pdf` · [doi:10.5281/zenodo.23745489](https://doi.org/10.5281/zenodo.23745489) · Data: [doi:10.5281/zenodo.23745520](https://doi.org/10.5281/zenodo.23745520)
+Code archive: Software Heritage [swh:1:snp:480cb3d5920ecafba8e5ce259bb82ed218a0575c](https://archive.softwareheritage.org/swh:1:snp:480cb3d5920ecafba8e5ce259bb82ed218a0575c)
 
 ```sh
 pip install scipy
